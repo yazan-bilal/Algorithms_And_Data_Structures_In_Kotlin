@@ -1,8 +1,14 @@
-import Algorithms.sort.insertionSort
+import algorithms.search.max
+import algorithms.sort.insertionSort
+import algorithms.sort.selectionSort
+import data_structures.Stack
 
 fun main(args: Array<String>) {
-   val list =  listOf<Int>(5,4,2,3,12,1,4)
-    print(testFunction(list))
+    val s = Stack()
+    s.push(5)
+    s.push(6)
+    println(s.pop())
+
 }
 
 fun testFunction(
