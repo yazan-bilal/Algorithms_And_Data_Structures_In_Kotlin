@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8dbb3b5-3b81-4f56-b2e5-9b7b41faeac9" name="Changes" comment="SelectionSort + Stack">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/ListNode.kt" afterDir="false" />
+    <list default="true" id="f8dbb3b5-3b81-4f56-b2e5-9b7b41faeac9" name="Changes" comment="ListNode and its two functions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/LinkedList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/LinkedList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/LinkedList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/linked_list/LinkedList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/ListNode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/linked_list/ListNode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/Stack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/Stack.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +48,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="data_structures.LinkedList" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
@@ -91,14 +97,22 @@
       <option name="project" value="LOCAL" />
       <updated>1713636575232</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ListNode and its two functions">
+      <created>1713804371640</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713804371640</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="InsertionSort" />
     <MESSAGE value="SelectionSort + Stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="SelectionSort + Stack" />
+    <MESSAGE value="ListNode and its two functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="ListNode and its two functions" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

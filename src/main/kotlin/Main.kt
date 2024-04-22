@@ -1,11 +1,8 @@
-import algorithms.search.max
-import algorithms.sort.insertionSort
-import algorithms.sort.selectionSort
-import data_structures.ListNode
-import data_structures.Stack
+import data_structures.linked_list.LinkedList
+import data_structures.linked_list.ListNode
 
 fun main(args: Array<String>) {
-    val linkedList = ListNode(5,ListNode(6,ListNode(7,ListNode(9,ListNode(10)))))
-    println(linkedList.toString())
-    linkedList.printInReverse()
+    var linkedList = LinkedList<Int>()
+    linkedList.append(5).append(6).append(7)
+    print(linkedList)
 }
