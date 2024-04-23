@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8dbb3b5-3b81-4f56-b2e5-9b7b41faeac9" name="Changes" comment="ListNode and its two functions">
+    <list default="true" id="f8dbb3b5-3b81-4f56-b2e5-9b7b41faeac9" name="Changes" comment="LinkedList class and two functions for adding a values in the end and in the start">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/LinkedList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/linked_list/LinkedList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/ListNode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/linked_list/ListNode.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/Stack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/Stack.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/linked_list/LinkedList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/linked_list/LinkedList.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713804371640</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="LinkedList class and two functions for adding a values in the end and in the start">
+      <created>1713810848090</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713810848090</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -112,7 +116,8 @@
     <MESSAGE value="InsertionSort" />
     <MESSAGE value="SelectionSort + Stack" />
     <MESSAGE value="ListNode and its two functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="ListNode and its two functions" />
+    <MESSAGE value="LinkedList class and two functions for adding a values in the end and in the start" />
+    <option name="LAST_COMMIT_MESSAGE" value="LinkedList class and two functions for adding a values in the end and in the start" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
