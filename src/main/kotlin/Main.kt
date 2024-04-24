@@ -1,8 +1,10 @@
 import data_structures.linked_list.LinkedList
-import data_structures.linked_list.ListNode
 
 fun main(args: Array<String>) {
     var linkedList = LinkedList<Int>()
-    linkedList.append(5).append(6).append(7)
-    print(linkedList)
+    linkedList.append(0).append(1).append(2).append(3).append(4).append(5)
+    linkedList.insert(10,3)
+    linkedList.deleteAt(4)
+    linkedList.deleteLast()
+    print(linkedList.nodeAt(0))
 }

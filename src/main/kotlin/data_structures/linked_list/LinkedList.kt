@@ -1,7 +1,5 @@
 package data_structures.linked_list
 
-import org.w3c.dom.NodeList
-
 class LinkedList<T:Any>{
     private var head :ListNode<T>? = null
     private var tail : ListNode<T>? = null
@@ -53,7 +51,7 @@ class LinkedList<T:Any>{
         for (i in 0..index){
             pointer = pointer?.next
             if ( i== index -1 ){
-                pointer!!.next = ListNode(value , pointer?.next )
+                pointer!!.next = ListNode(value , pointer.next )
             }
         }
         return this
@@ -69,7 +67,7 @@ class LinkedList<T:Any>{
         return currentNode !!
     }
 
-    fun insert(value:T , afterNode:ListNode<T>):ListNode<T>{
+    fun insert1(value:T , afterNode:ListNode<T>):ListNode<T>{
         if (tail == afterNode){
             append(value)
             return tail !!
@@ -79,5 +77,52 @@ class LinkedList<T:Any>{
         size ++
 
         return newNode
+    }
+
+    fun insert (value: T, index:Int = 0 ):LinkedList<T>{
+        if (size-1  == index || isEmpty()){
+            append(value)
+        } else {
+            val newNode = ListNode(value , nodeAt(index))
+            nodeAt(index -1).next = newNode
+            size++
+        }
+        return this
+    }
+
+    // deleting values :
+    fun pop():ListNode<T>?{
+        if (head == null )
+            return null
+        val deletedNode = head
+        head = head?.next
+        size--
+        return deletedNode
+    }
+    fun deleteLast():ListNode<T>? {
+        if (isEmpty()){
+            return null
+        }
+        if (tail == head ){
+            return pop()
+        }
+        tail = nodeAt(size -2 )
+        val deletedNode = tail
+        tail!!.next = null
+        size--
+        return deletedNode
+    }
+
+    fun deleteAt(index: Int):ListNode<T>{
+        return if(size == 1 ){
+            deleteLast() !!
+        }else{
+            val previousNode = nodeAt(index-1)
+            val deletedNode = previousNode.next
+            previousNode.next = previousNode.next!!.next
+            size--
+            deletedNode!!
+
+        }
     }
 }
