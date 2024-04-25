@@ -1,9 +1,10 @@
 package data_structures.linked_list
 
 class LinkedList<T:Any>{
-    private var head :ListNode<T>? = null
-    private var tail : ListNode<T>? = null
+    var head :ListNode<T>? = null
+    var tail : ListNode<T>? = null
     var size = 0
+
 
     fun isEmpty():Boolean = size== 0
 

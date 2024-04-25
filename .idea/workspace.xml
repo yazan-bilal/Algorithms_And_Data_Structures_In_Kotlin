@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8dbb3b5-3b81-4f56-b2e5-9b7b41faeac9" name="Changes" comment="linkedList adding values in the middle.">
+    <list default="true" id="f8dbb3b5-3b81-4f56-b2e5-9b7b41faeac9" name="Changes" comment="LinkedList adding another inserting method + deleting methodes such as : &#10;- pop&#10;- deleteLast&#10;- deleteLast">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/Queue.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/linked_list/LinkedList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/linked_list/LinkedList.kt" afterDir="false" />
@@ -116,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713905519341</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="LinkedList adding another inserting method + deleting methodes such as : &#10;- pop&#10;- deleteLast&#10;- deleteLast">
+      <created>1713961165387</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713961165387</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -126,7 +134,8 @@
     <MESSAGE value="ListNode and its two functions" />
     <MESSAGE value="LinkedList class and two functions for adding a values in the end and in the start" />
     <MESSAGE value="linkedList adding values in the middle." />
-    <option name="LAST_COMMIT_MESSAGE" value="linkedList adding values in the middle." />
+    <MESSAGE value="LinkedList adding another inserting method + deleting methodes such as : &#10;- pop&#10;- deleteLast&#10;- deleteLast" />
+    <option name="LAST_COMMIT_MESSAGE" value="LinkedList adding another inserting method + deleting methodes such as : &#10;- pop&#10;- deleteLast&#10;- deleteLast" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
