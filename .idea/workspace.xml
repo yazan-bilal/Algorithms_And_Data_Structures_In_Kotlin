@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8dbb3b5-3b81-4f56-b2e5-9b7b41faeac9" name="Changes" comment="LinkedList adding another inserting method + deleting methodes such as : &#10;- pop&#10;- deleteLast&#10;- deleteLast">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/Queue.kt" afterDir="false" />
+    <list default="true" id="f8dbb3b5-3b81-4f56-b2e5-9b7b41faeac9" name="Changes" comment="Queue : creating a Queue Class and making this two functions : &#10;- enqueue()&#10;- dequeue()">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/binaryTree/BinaryTree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/binaryTree/TreeNode.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/linked_list/LinkedList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/linked_list/LinkedList.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713961165387</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Queue : creating a Queue Class and making this two functions : &#10;- enqueue()&#10;- dequeue()">
+      <created>1714063719445</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714063719445</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -135,7 +141,8 @@
     <MESSAGE value="LinkedList class and two functions for adding a values in the end and in the start" />
     <MESSAGE value="linkedList adding values in the middle." />
     <MESSAGE value="LinkedList adding another inserting method + deleting methodes such as : &#10;- pop&#10;- deleteLast&#10;- deleteLast" />
-    <option name="LAST_COMMIT_MESSAGE" value="LinkedList adding another inserting method + deleting methodes such as : &#10;- pop&#10;- deleteLast&#10;- deleteLast" />
+    <MESSAGE value="Queue : creating a Queue Class and making this two functions : &#10;- enqueue()&#10;- dequeue()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Queue : creating a Queue Class and making this two functions : &#10;- enqueue()&#10;- dequeue()" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
