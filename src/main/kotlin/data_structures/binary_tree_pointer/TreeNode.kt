@@ -1,4 +1,4 @@
-package data_structures.binaryTree
+package data_structures.binary_tree_pointer
 
 class TreeNode<T:Any>(
     var leftChild:TreeNode<T>? = null,

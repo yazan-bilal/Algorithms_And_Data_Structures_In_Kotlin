@@ -1,14 +1,16 @@
+import algorithms.sort.insertionSort
+import algorithms.sort.mergeSort
 import data_structures.Queue
 import data_structures.linked_list.LinkedList
 
 fun main(args: Array<String>) {
 
-    val queue = Queue<Int>().enqueue(5).enqueue(6).enqueue(8).enqueue(7).enqueue(8).enqueue(9)
-    println(queue)
-    queue.dequeue()
-    queue.dequeue()
-    queue.dequeue()
-    println(queue)
+    var arr1 = arrayOf(10,34,53,3,2,4,5,9)
+    mergeSort(arr1,0,arr1.size -1 )
+    for (i in arr1){
+        print("$i ")
+    }
+
     var workers = mutableListOf<String>(
         "Yazan, Ahmad",
         "Yara Mohammad, Julia",
