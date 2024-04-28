@@ -1,3 +1,4 @@
+import algorithms.search.binarySearch
 import algorithms.sort.insertionSort
 import algorithms.sort.mergeSort
 import data_structures.Queue
@@ -7,9 +8,7 @@ fun main(args: Array<String>) {
 
     var arr1 = arrayOf(10,34,53,3,2,4,5,9)
     mergeSort(arr1,0,arr1.size -1 )
-    for (i in arr1){
-        print("$i ")
-    }
+    println(binarySearch(arr1,53))
 
     var workers = mutableListOf<String>(
         "Yazan, Ahmad",
