@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8dbb3b5-3b81-4f56-b2e5-9b7b41faeac9" name="Changes" comment="mergeSort Algorithm">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/search/BinarySearch.kt" afterDir="false" />
+    <list default="true" id="f8dbb3b5-3b81-4f56-b2e5-9b7b41faeac9" name="Changes" comment="binarySearch Algorithm">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/sort/BucketSort.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -17,13 +17,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="17d5f368-2607-47c3-8153-b441b696d208" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-common/1.8.0/kotlin-stdlib-common-1.8.0-sources.jar!/kotlin/collections/Collections.kt" root0="SKIP_INSPECTION" />
@@ -145,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714239210364</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="binarySearch Algorithm">
+      <created>1714295779683</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714295779683</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -159,7 +163,8 @@
     <MESSAGE value="Queue : creating a Queue Class and making this two functions : &#10;- enqueue()&#10;- dequeue()" />
     <MESSAGE value="Implementing binaryTree using pointers" />
     <MESSAGE value="mergeSort Algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="mergeSort Algorithm" />
+    <MESSAGE value="binarySearch Algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="binarySearch Algorithm" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
