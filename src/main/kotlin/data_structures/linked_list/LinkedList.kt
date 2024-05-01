@@ -8,6 +8,7 @@ class LinkedList<T:Any>{
 
     fun isEmpty():Boolean = size== 0
 
+
     override fun toString(): String {
         return if (isEmpty()){
             "empty "
@@ -16,7 +17,7 @@ class LinkedList<T:Any>{
         }
     }
 
-    // push is adding to front
+    // push is adding to the front
     fun push(value:T):LinkedList<T> {
         head = ListNode (value ,this.head)
         if (tail == null){
