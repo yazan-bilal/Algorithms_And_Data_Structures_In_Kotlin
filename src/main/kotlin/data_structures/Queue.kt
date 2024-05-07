@@ -2,7 +2,6 @@ package data_structures
 
 import data_structures.linked_list.LinkedList
 import data_structures.linked_list.ListNode
-import org.w3c.dom.NodeList
 
 class Queue<T:Any>(
 

@@ -9,13 +9,7 @@ class LinkedList<T:Any>{
     fun isEmpty():Boolean = size== 0
 
 
-    override fun toString(): String {
-        return if (isEmpty()){
-            "empty "
-        }else {
-            head.toString()
-        }
-    }
+
 
     // push is adding to the front
     fun push(value:T):LinkedList<T> {
@@ -125,6 +119,44 @@ class LinkedList<T:Any>{
             size--
             deletedNode!!
 
+        }
+    }
+    private var current = head
+
+    fun deleteValue(value:T) {
+        if (current?.next?.value == value ){
+            current?.next = current?.next?.next
+        }
+    }
+
+
+
+
+    /**
+     implementing the Iterator class inorder to loop through emelents.
+    **/
+    fun iterator(): Iterator<T> {
+        return MyIterator()
+    }
+
+    // Implement the Iterator interface
+    private inner class MyIterator : Iterator<T> {
+        private var pointer = head
+
+        override fun hasNext(): Boolean {
+            return pointer!!.next != null
+        }
+
+        override fun next(): T {
+            return pointer!!.next!!.value
+        }
+
+        override fun toString(): String {
+            return if (isEmpty()) {
+                "empty "
+            } else {
+                head.toString()
+            }
         }
     }
 }

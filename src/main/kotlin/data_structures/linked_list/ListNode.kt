@@ -8,6 +8,7 @@ package data_structures.linked_list
         - we recall the function printInReverse() until we reach a null value (the base case is next is null) then print the arrow if the value
         in the recursive is not null then we print each value...
  ***/
+
 class ListNode<T:Any>(
     var value:T,
     var next: ListNode<T>? = null,
