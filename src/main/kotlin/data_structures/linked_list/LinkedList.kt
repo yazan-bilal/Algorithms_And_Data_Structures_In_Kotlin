@@ -121,42 +121,49 @@ class LinkedList<T:Any>{
 
         }
     }
-    private var current = head
-
     fun deleteValue(value:T) {
-        if (current?.next?.value == value ){
-            current?.next = current?.next?.next
+        var current = head
+        if (size == 0){
+            return
         }
-    }
-
-
-
-
-    /**
-     implementing the Iterator class inorder to loop through emelents.
-    **/
-    fun iterator(): Iterator<T> {
-        return MyIterator()
-    }
-
-    // Implement the Iterator interface
-    private inner class MyIterator : Iterator<T> {
-        private var pointer = head
-
-        override fun hasNext(): Boolean {
-            return pointer!!.next != null
+        if (head?.value == value){
+            pop()
         }
-
-        override fun next(): T {
-            return pointer!!.next!!.value
+        if (current?.next  == null ){
+            return
         }
-
-        override fun toString(): String {
-            return if (isEmpty()) {
-                "empty "
-            } else {
-                head.toString()
+        for (i in 0 until size) {
+            if (current?.next?.value == value ){
+                current?.next = current?.next?.next
+            } else if (current?.next  == null)  {
+                return
+            }else {
+                current = current?.next
             }
         }
     }
+
+
+    fun valueExist(value:T):Boolean{
+        var pointer = head
+        for(i in 0 until size){
+            if (pointer?.value  == value ){
+                return true
+            }
+        }
+        return false
+    }
+    fun copyWithout(value:Int):LinkedList<T>{
+        var pointer = head
+        var newLinkedList= LinkedList<T>()
+        for(i in 0 until size){
+            if(pointer?.value != value){
+                newLinkedList.append(pointer!!.value)
+            }
+            if (pointer.next != null) // why this line ? because if i removed it I will get a null pointer exception beceause i have a chain for checking for null value that are implicit
+                pointer = pointer?.next
+        }
+        return newLinkedList
+    }
+
 }
