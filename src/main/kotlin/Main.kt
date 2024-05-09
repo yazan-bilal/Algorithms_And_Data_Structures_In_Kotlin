@@ -16,7 +16,9 @@ fun main(args: Array<String>) {
     graph.addEdge(3,2)
     println(graph.alreadyExist(3,4))
     println(graph.alreadyExist(4,0))
+    println(graph.edges)
     graph.deleteVertex(4)
+    println(graph.edges)
     println(graph.alreadyExist(3,4))
     println(graph.alreadyExist(0,4))
 }

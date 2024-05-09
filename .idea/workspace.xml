@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8dbb3b5-3b81-4f56-b2e5-9b7b41faeac9" name="Changes" comment="fixing bugs" />
+    <list default="true" id="f8dbb3b5-3b81-4f56-b2e5-9b7b41faeac9" name="Changes" comment="alreadyExist bug in function fixed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph_adj_list/DirectedGraph.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph_adj_list/DirectedGraph.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph_adj_list/UndirectedGraph.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph_adj_list/UndirectedGraph.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715191651549</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="alreadyExist bug in function fixed">
+      <created>1715245819387</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1715245819387</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -188,7 +200,8 @@
     <MESSAGE value="bucketSort Algorithm" />
     <MESSAGE value="implementing graph using adj-matrix and adj-list" />
     <MESSAGE value="fixing bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing bugs" />
+    <MESSAGE value="alreadyExist bug in function fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="alreadyExist bug in function fixed" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

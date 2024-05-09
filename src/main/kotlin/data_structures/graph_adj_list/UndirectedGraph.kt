@@ -35,12 +35,16 @@ class UndirectedGraph(
     }
     fun deleteVertex(index:Int){
         nodes--
+        var removedEdges = 0
         var newAdjList = Array(nodes){ LinkedList<Int>() }
         for (i in adjList.indices) {
-            if (i == index)
+            if (i == index){
+                removedEdges += adjList[index].size
                 continue
+            }
             newAdjList[i] = adjList[i].copyWithout(index)
         }
+        edges  -=removedEdges
         adjList = newAdjList
     }
 }
