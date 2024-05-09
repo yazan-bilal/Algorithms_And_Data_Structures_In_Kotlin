@@ -9,7 +9,7 @@ class UndirectedGraph(
     
     var adjList = Array(nodes){ LinkedList<Int>() }
 
-    //  alreadyExist is not working correctly
+
      fun alreadyExist(from:Int , to:Int):Boolean  {
          return adjList[from].valueExist(to)
     }

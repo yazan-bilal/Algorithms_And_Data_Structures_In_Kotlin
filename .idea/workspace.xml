@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8dbb3b5-3b81-4f56-b2e5-9b7b41faeac9" name="Changes" comment="implementing graph using adj-matrix and adj-list">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph_adj_list/DirectedGraph.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph_adj_list/DirectedGraph.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph_adj_list/UndirectedGraph.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph_adj_list/UndirectedGraph.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/linked_list/LinkedList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/linked_list/LinkedList.kt" afterDir="false" />
-    </list>
+    <list default="true" id="f8dbb3b5-3b81-4f56-b2e5-9b7b41faeac9" name="Changes" comment="fixing bugs" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -169,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714593266895</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="fixing bugs">
+      <created>1715191651549</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1715191651549</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -186,7 +187,8 @@
     <MESSAGE value="binarySearch Algorithm" />
     <MESSAGE value="bucketSort Algorithm" />
     <MESSAGE value="implementing graph using adj-matrix and adj-list" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementing graph using adj-matrix and adj-list" />
+    <MESSAGE value="fixing bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing bugs" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
