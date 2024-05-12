@@ -9,7 +9,7 @@ package data_structures.linked_list
         in the recursive is not null then we print each value...
  ***/
 
-class ListNode<T:Any>(
+class ListNode<T>(
     var value:T,
     var next: ListNode<T>? = null,
 ) {

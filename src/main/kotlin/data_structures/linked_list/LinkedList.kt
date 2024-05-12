@@ -1,11 +1,12 @@
 package data_structures.linked_list
 
-class LinkedList<T:Any>{
+import org.w3c.dom.NodeList
+
+class LinkedList<T>:Iterable<T>{
     var head :ListNode<T>? = null
     var tail : ListNode<T>? = null
     var size = 0
-
-
+        private  set
     fun isEmpty():Boolean = size== 0
 
 
@@ -165,6 +166,37 @@ class LinkedList<T:Any>{
                 pointer = pointer?.next
         }
         return newLinkedList
+    }
+
+
+
+
+
+
+
+    // implementing the function needed for the Iterable interface
+    override fun iterator(): Iterator<T> {
+        return LinkedListIterator(this)
+    }
+    inner class LinkedListIterator<T>(
+        private val list:LinkedList<T> ,
+        private var index: Int = 0 ,
+        private var lastNode:ListNode<T>? = null
+    ): Iterator<T> {
+        override fun hasNext(): Boolean {
+            return index <list.size
+        }
+
+        override fun next(): T {
+            if (index >= list.size) throw IndexOutOfBoundsException()
+            lastNode= if(index == 0) {
+                list.nodeAt(0)
+            }else {
+                lastNode?.next
+            }
+            index ++
+            return lastNode!!.value
+        }
     }
 
 }

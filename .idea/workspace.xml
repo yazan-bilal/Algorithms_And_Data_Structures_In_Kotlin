@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8dbb3b5-3b81-4f56-b2e5-9b7b41faeac9" name="Changes" comment="fixing edges bug and adding a function that counts the outgoing edges and incoming edges for a vertex in a graph">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/graph_algorithms/DFS.kt" afterDir="false" />
+    <list default="true" id="f8dbb3b5-3b81-4f56-b2e5-9b7b41faeac9" name="Changes" comment="dfs algorithm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph_adj_list/DirectedGraph.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph_adj_list/DirectedGraph.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/linked_list/LinkedList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/linked_list/LinkedList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/linked_list/ListNode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/linked_list/ListNode.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715250967239</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="dfs algorithm">
+      <created>1715355024862</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1715355024862</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -208,7 +216,8 @@
     <MESSAGE value="fixing bugs" />
     <MESSAGE value="alreadyExist bug in function fixed" />
     <MESSAGE value="fixing edges bug and adding a function that counts the outgoing edges and incoming edges for a vertex in a graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing edges bug and adding a function that counts the outgoing edges and incoming edges for a vertex in a graph" />
+    <MESSAGE value="dfs algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="dfs algorithm" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
