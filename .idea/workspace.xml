@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8dbb3b5-3b81-4f56-b2e5-9b7b41faeac9" name="Changes" comment="dfs algorithm">
+    <list default="true" id="f8dbb3b5-3b81-4f56-b2e5-9b7b41faeac9" name="Changes" comment="implementing the Iterable Interface for the linkedList">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/linked_list/LinkedList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/linked_list/LinkedList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/linked_list/ListNode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/linked_list/ListNode.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715355024862</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="implementing the Iterable Interface for the linkedList">
+      <created>1715544181858</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1715544181858</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -217,7 +222,8 @@
     <MESSAGE value="alreadyExist bug in function fixed" />
     <MESSAGE value="fixing edges bug and adding a function that counts the outgoing edges and incoming edges for a vertex in a graph" />
     <MESSAGE value="dfs algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="dfs algorithm" />
+    <MESSAGE value="implementing the Iterable Interface for the linkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementing the Iterable Interface for the linkedList" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
