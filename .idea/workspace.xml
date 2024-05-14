@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8dbb3b5-3b81-4f56-b2e5-9b7b41faeac9" name="Changes" comment="implementing the Iterable Interface for the linkedList">
+    <list default="true" id="f8dbb3b5-3b81-4f56-b2e5-9b7b41faeac9" name="Changes" comment="implementing MutableCollection interface to the linkedlis">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/linked_list/LinkedList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/linked_list/LinkedList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/algorithms/graph_algorithms/DFS.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/algorithms/graph_algorithms/DFS.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph_adj_list/DirectedGraph.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph_adj_list/DirectedGraph.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph_adj_list/UndirectedGraph.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/data_structures/graph_adj_list/UndirectedGraph.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715544181858</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="implementing MutableCollection interface to the linkedlis">
+      <created>1715632721710</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1715632721710</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -223,7 +233,19 @@
     <MESSAGE value="fixing edges bug and adding a function that counts the outgoing edges and incoming edges for a vertex in a graph" />
     <MESSAGE value="dfs algorithm" />
     <MESSAGE value="implementing the Iterable Interface for the linkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementing the Iterable Interface for the linkedList" />
+    <MESSAGE value="implementing MutableCollection interface to the linkedlis" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementing MutableCollection interface to the linkedlis" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/algorithms/graph_algorithms/DFS.kt</url>
+          <line>17</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

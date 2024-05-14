@@ -1,14 +1,18 @@
 package data_structures.graph_adj_list
 
+import algorithms.graph_algorithms.VertexState
 import data_structures.Stack
 import data_structures.linked_list.LinkedList
-import data_structures.linked_list.ListNode
 
 class DirectedGraph(
     var nodes: Int = 0,
-    var edges: Int = 0,
+    private var edges: Int = 0,
 ) {
-
+    var dfsCounter = 0
+    var finishedCounter = 0
+    var state = Array(nodes){ VertexState.NEW}
+    var dfsNumber = Array(nodes){0}
+    var finishNumber = Array(nodes){0}
     var adjList = Array(nodes) { LinkedList<Int>() }
 
 

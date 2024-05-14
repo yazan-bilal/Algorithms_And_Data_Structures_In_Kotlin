@@ -1,12 +1,16 @@
 package data_structures.graph_adj_list
 
+import algorithms.graph_algorithms.VertexState
 import data_structures.linked_list.LinkedList
 
 class UndirectedGraph(
     var nodes: Int = 0,
-    var edges: Int = 0
+    private var edges: Int = 0
 ) {
-    
+    val state = Array(nodes){ VertexState.NEW}
+    val dfsNumber = Array(nodes){0}
+    val finishNumber = Array(nodes){0}
+
     var adjList = Array(nodes){ LinkedList<Int>() }
 
 

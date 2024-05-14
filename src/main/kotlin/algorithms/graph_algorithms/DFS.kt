@@ -1,13 +1,39 @@
 package algorithms.graph_algorithms
 
-fun depthFirstSearch(nodes:Int){
-    val state = Array(nodes){VertexState.NEW}
-    val dfsNumber = Array(nodes){0}
-    val finishNumber = Array(nodes){0}
-    //learn how to iterate in Linked list
-    // learn how to use higher order functions in kotlin
+import data_structures.graph_adj_list.DirectedGraph
+
+fun DirectedGraph.depthFirstSearch() {
+    depthFirstSearchInit(this)
+    for (x in adjList.indices) {
+        if (state[x] == VertexState.NEW){
+            this.dfs(x)
+        }
+    }
 }
 
+fun depthFirstSearchInit(graph: DirectedGraph) {
+    graph.state = Array(graph.nodes) { VertexState.NEW }
+    graph.dfsNumber = Array(graph.nodes) { 0 }
+    graph.finishNumber = Array(graph.nodes) { 0 }
+    graph.dfsCounter = 0
+    graph.dfsCounter = 0
+}
+
+fun DirectedGraph.dfs(x: Int) {
+    state[x] = VertexState.ACTIVE
+    dfsNumber[x] = dfsCounter
+    dfsCounter++
+    for (w in adjList[x]) {
+        if (state[w] == VertexState.NEW) {
+            dfs(w)
+        }
+    }
+    state[x] = VertexState.FINISHED
+    finishNumber[x] = finishedCounter
+    finishedCounter++
+}
+
+
 enum class VertexState {
-    NEW,ACTIVE,FINISHED
+    NEW, ACTIVE, FINISHED
 }
