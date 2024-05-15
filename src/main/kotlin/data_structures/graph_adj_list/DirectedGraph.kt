@@ -14,6 +14,10 @@ class DirectedGraph(
     var dfsNumber = Array(nodes){0}
     var finishNumber = Array(nodes){0}
     var adjList = Array(nodes) { LinkedList<Int>() }
+    var treeEdge = LinkedList<Pair<Int,Int>>()
+    var forwardEdge = LinkedList<Pair<Int,Int>>()
+    var BackwordEdge = LinkedList<Pair<Int,Int>>()
+    var crossEdge = LinkedList<Pair<Int,Int>>()
 
 
     fun alreadyExist(from: Int, to: Int): Boolean {
