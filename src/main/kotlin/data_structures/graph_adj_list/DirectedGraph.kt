@@ -1,5 +1,6 @@
 package data_structures.graph_adj_list
 
+import algorithms.graph_algorithms.Color
 import algorithms.graph_algorithms.VertexState
 import data_structures.Stack
 import data_structures.linked_list.LinkedList
@@ -8,6 +9,13 @@ class DirectedGraph(
     var nodes: Int = 0,
     private var edges: Int = 0,
 ) {
+    // for the Breadth First Search :
+    var  color = Array(nodes) { Color.WHITE}
+    var  distance = Array(nodes) { 0 }
+    var  father  = Array<Int?>(nodes){ null }
+
+
+    // for the Depth First Search :
     var dfsCounter = 0
     var finishedCounter = 0
     var state = Array(nodes){ VertexState.NEW}

@@ -29,4 +29,9 @@ class Queue<T:Any>(
         head = queue.head
         return deletedNode
     }
+
+
+    fun isEmpty():Boolean {
+        return queue.isEmpty()
+    }
 }
