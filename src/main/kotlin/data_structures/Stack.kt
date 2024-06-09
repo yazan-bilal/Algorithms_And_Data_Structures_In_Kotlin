@@ -1,6 +1,6 @@
 package data_structures
 
-class  Stack<T:Any> {
+class  Stack<T> {
     val stack:ArrayList<T> = ArrayList()
     fun push(value:T){
         stack.add(value)
@@ -12,4 +12,5 @@ class  Stack<T:Any> {
     fun top():T{
         return stack.last()
     }
+
 }

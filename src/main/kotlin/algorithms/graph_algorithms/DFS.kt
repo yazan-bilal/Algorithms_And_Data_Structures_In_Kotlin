@@ -17,7 +17,7 @@ fun depthFirstSearchInit(graph: DirectedGraph) {
     graph.dfsNumber = Array(graph.nodes) { 0 }
     graph.finishNumber = Array(graph.nodes) { 0 }
     graph.dfsCounter = 0
-    graph.dfsCounter = 0
+    graph.finishedCounter = 0
     graph.treeEdge = LinkedList()
     graph.forwardEdge = LinkedList()
     graph.BackwordEdge = LinkedList()
